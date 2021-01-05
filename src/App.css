@@ -99,6 +99,6 @@ a:hover {
   }
   input {
     width: 200px;
-    margin: 0 auto;
+    margin: auto;
   }
 }
