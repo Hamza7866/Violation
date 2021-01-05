@@ -41,7 +41,7 @@ const Newyork = () => {
               <p>Violation Date:{car.issue_date}</p>
               <p>Violation Time:{car.violation_time}</p>
               <a href={car.summons_image.url} target="_blank" rel="noreferrer">
-                Check Violation Picture
+                Check Violation
               </a>
             </div>
           </div>

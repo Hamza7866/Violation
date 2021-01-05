@@ -23,6 +23,7 @@ input {
   height: 40px;
   text-align: center;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  outline: none;
 }
 
 input::placeholder {
@@ -53,6 +54,7 @@ button:hover {
   padding: 20px;
   border-radius: 20px;
   box-shadow: -4px 10px 19px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 .type {
   background-color: rgb(39, 32, 27);
@@ -60,4 +62,43 @@ button:hover {
   padding: 10px;
   text-transform: uppercase;
   margin: 10px;
+}
+a {
+  background-color: rgb(8, 199, 126);
+  outline: none;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+a:hover {
+  background-color: rgb(8, 110, 71);
+}
+
+@media only screen and (max-width: 502px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  input {
+    width: 300px;
+    margin: auto;
+  }
+  .card {
+    width: 300px;
+    margin: 10px auto;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  input {
+    width: 200px;
+    margin: 0 auto;
+  }
 }
